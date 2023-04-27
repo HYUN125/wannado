@@ -1,0 +1,275 @@
+@font-face {
+    font-family: DORORONG;
+    src: url(../font/EF_hyunydororong\(윈도우용_TTF\).ttf);
+}
+@font-face {
+    font-family: Kimpo;
+    src: url(../font/cts2688_file2.ttf);
+}
+@font-face {
+    font-family: E-land;
+    src: url(../font/ELAND\ 나이스\ M.ttf);
+}
+@font-face {
+    font-family: Nanum-SR;
+    src: url(../font/NanumSquareRoundR.ttf);
+}
+p {font-family: Nanum-SR;}
+main {padding-top: 65px;}
+.stem-1 {
+    width: 100%;
+    height: 90vh;
+}
+.stem-1 .inner {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+}
+.stem-1 .stem-1-left {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.stem-1 .stem-1-left p {
+    text-align: center;
+
+}
+.stem-1 .stem-1-left p:first-child {
+    font-size: 50px;
+    margin-top: 200px;
+}
+.stem-1 .stem-1-left .dororong {
+    font-family: DORORONG;
+    font-size: 110px;
+    margin-bottom: 200px;
+    position: relative;
+}
+.stem-1 .stem-1-left .dororong::after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #ffc632;
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    z-index: -1;
+}
+.stem-1 .stem-1-left p:last-child {
+    line-height: 24px;
+}
+.stem-1 .stem-1-right {
+    margin-left: 50%;
+}
+.stem-1 .stem-1-right img {
+    width: 750px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.stem-2 {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.stem-2 > div {
+    flex-basis: 28%;
+}
+.stem-2 * p {
+    text-align: center;
+}
+.stem-2 * p:first-child {
+    font-family: Kimpo;
+    font-size: 30px;
+    margin: 50px 0;
+    font-weight: 600;
+}
+.stem-2 * p:last-child {
+    font-size: 15px;
+    line-height: 22px;
+}
+.stem-2 * img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/* stem-desc */
+.stem-desc {
+    width: 100%;
+    height: auto;
+    background: url(../images/stem/sub-background.png) no-repeat top center/cover;
+    position: relative;
+    margin-top: 20px;
+}
+.stem-desc .bal {
+    position: absolute;
+    margin-top: 100px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.stem-desc h1 {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+    font-size: 50px;
+    color: #3e5d76;
+}
+.stem-desc .stem-4 {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 550px;
+}
+.stem-desc .stem-4 > div {
+    display: flex;
+    height: 400px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.stem-desc .stem-4  > div > .color-txt,
+.stem-desc .stem-4  > div > .color-box {
+    flex-basis: 48%;
+}
+.stem-desc .stem-4  > div > .color-box {
+    transform: scale(0.9);
+}
+.stem-4-1 .color-box {
+    margin-left: -100px;
+    opacity: 0;
+    transition: 1s;
+}
+.stem-4-1 .color-box.on {
+    margin-left: -30px;
+    opacity: 1;
+}
+.stem-4-2 .color-box {
+    margin-right: -100px;
+    opacity: 0;
+    transition: 1s;
+}
+.stem-4-2 .color-box.on {
+    margin-right: -30px;
+    opacity: 1;
+}
+.stem-4-3 .color-box {
+    margin-left: -100px;
+    opacity: 0;
+    transition: 1s;
+}
+.stem-4-3 .color-box.on {
+    margin-left: -30px;
+    opacity: 1;
+}
+.stem-4-4 .color-box {
+    margin-right: -100px;
+    opacity: 0;
+    transition: 1s;
+}
+.stem-4-4 .color-box.on {
+    margin-right: -30px;
+    opacity: 1;
+}
+
+.stem-desc .stem-4  > div > .color-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stem-desc .stem-4  > div > .color-txt span  {
+    font-size: 250px;
+    display: inline;
+    text-shadow: 5px 5px 5px rgb(124, 124, 124), 0 0 5px transparent
+}
+.stem-desc .stem-4  > div > .color-txt .txt-box {
+    padding-left: 30px;
+}
+.stem-desc .stem-4  > div > .color-txt .txt-box p {
+    line-height: 22px;
+}
+.stem-desc .stem-4  > div > .color-txt .txt-box p:first-child {
+    font-family: E-land;   
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+/* 공통 끝 */
+
+.stem-4-1 .color-txt > span,
+.stem-4-1 .color-txt > .txt-box p:first-child {
+    color: #00c063;
+}
+.stem-4-2 .color-txt > span,
+.stem-4-2 .color-txt > .txt-box p:first-child {
+    color: #ef8e15;
+}
+.stem-4-3 .color-txt > span,
+.stem-4-3 .color-txt > .txt-box p:first-child {
+    color: #ea5156;
+}
+.stem-4-4 .color-txt > span,
+.stem-4-4 .color-txt > .txt-box p:first-child {
+    color: #16b3e9;
+}
+/* sports */
+.sports {
+    height: 550px;
+    margin: 150px 0 0 0;
+    position: relative;
+}
+.sports .plus {
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    z-index: 55;
+}
+.sports .color-sport {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    opacity: 0;
+    top: 100px;
+    transition: 1s;
+}
+.sports .color-sport.on {
+    opacity: 1;
+    top: 0px;
+}
+.sports .color-txt {
+    width: 450px;
+    position: absolute;
+    left: 47%;
+    top: 160px;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+}
+.sports .color-txt.on{
+    top: 60px;
+    opacity: 1;
+}
+.sports > .color-txt span  {
+    font-size: 220px;
+    display: inline;
+    text-shadow: 5px 5px 5px rgb(124, 124, 124), 0 0 5px transparent;
+    color: #7d5846;
+}
+.sports .color-txt .txt-box {
+    padding-left: 30px;
+}
+.sports .color-txt .txt-box p {
+    line-height: 22px;
+}
+.sports .color-txt .txt-box p:first-child {
+    font-family: E-land;   
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #7d5846;
+}

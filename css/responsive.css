@@ -1,0 +1,1088 @@
+@media all and (max-width:1500px){
+    .header-wrap {
+        max-width: 1200px;
+    }
+    .mainbanner .smile-face {
+        left: 3%;
+        width: 120px;
+        height: 120px;
+    }
+    .mainbanner .smile-face .smile-eye {
+        width: 45%;
+    }
+    .mainbanner .main-wrap {
+        max-width: 1200px;
+    }
+    .mainbanner .m-wannado {
+        font-size: 70px;
+        margin-left: 50px;
+    }
+    .bn-img {
+        width: 40%;
+    }
+    .orange .inner {
+        max-width: 1100px;
+    }
+    .orange .train .maintrain {
+        left: 65%;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+    .orange .img-3 .img-3-flip > img {
+        width: 300px;
+        margin-left: 2%;
+    }
+    .blue .inner {
+        max-width: 1100px;
+    }
+    .creative .cre-box > span .none {
+        display: none;
+    }
+    .potential .po-box > span .none {
+        display: none;
+    }
+    #step2 .step2-back {
+        left: 86%;
+    }
+    footer .inner {
+        max-width: 1200px;
+    }
+}
+@media all and (max-width: 1300px){
+    .mainbanner .main-wrap {
+        max-width: 1100px;
+    }
+    .header-wrap {
+        max-width: 1050px;
+    }
+    .orange .inner {
+        max-width: 1000px;
+    }
+    .blue .inner {
+        max-width: 900px;
+    }
+    .blue .rotate-dna {
+        width: 150px;
+    }
+    .blue .step-2 .rotate-dna {
+        width: 150px;
+    }
+    .blue .step-1 .step-1-content p:first-child {
+        font-size: 80px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2) {
+        font-size: 28px;
+    }
+    .blue .step-1 .step-1-content p:last-child {
+        font-size:16px;
+    }
+    .blue .step-1 .step-1-content img {
+        width: 45%;
+    }
+    .blue .step-2 .step-2-content p:first-child {
+        font-size: 80px;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2) {
+        font-size: 28px;
+    }
+    .blue .step-2 .step-2-content p:last-child {
+        font-size: 16px;
+    }
+    .blue .step-2 .step-2-content img {
+        width: 45%;
+    }
+    .creative {height: 650px;}
+    .creative h1 {font-size: 80px;}
+    .creative .cre-box > img {
+        width: 55%;
+    }
+    .creative .cre-box > span {font-size: 16px;}
+    .creative .cre-img {
+        width: 28%;
+    }
+    .potential {height: 650px;}
+    .potential h1 {font-size: 80px;}
+    .potential .po-box > img {
+        width: 29%;
+    }
+    .potential .po-box > span {font-size: 16px;}
+    .potential .po-img {
+        width: 28%;
+    }
+    #step2 .step2-back {
+        width: 100px;
+        left: 90%;
+    }
+    footer .inner {
+        max-width: 1100px;
+    }
+}
+@media all and (max-width: 1100px){
+    .header-wrap {
+        max-width: 950px;
+    }
+    .mainbanner .smile-face {
+        width: 100px;
+        height: 100px;
+        left: 5%;
+    }
+    .mainbanner .main-wrap {
+        max-width: 950px;
+    }
+
+    .orange .inner {
+        max-width: 900px;
+    }
+    .orange .orange-title .or-title {
+        font-size: 38px;
+    }
+    .orange .train {
+        height: 400px;
+    }
+    .orange .train .maintrain {
+        top: 150px;
+    }
+    .orange .img-3 {
+        height: 250px;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+    .orange .img-3 .img-3-flip > img {
+        width: 250px;
+    }
+    .orange .orange-last-txt {
+        margin: 80px 0;
+    }
+    .blue .inner {max-width: 800px;}
+    .blue .blue-title {
+        padding-top: 20px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 38px;
+    }
+    .blue .step-1 {
+        margin-top: 50px;
+    }
+    .blue .step-1 .step-1-content {
+        margin-top: 30px;
+    }
+    .creative {height: 600px;}
+    .creative .cre-box > img {
+        top: 55%;
+        opacity: 1;
+        left: 50%;
+    }
+    .creative .cre-box > span {
+        top: 51%;
+        opacity: 1;
+        font-size: 14px;
+        line-height: 22px;
+        left: 49%;
+        width: 43%;
+
+    }
+    .creative .cre-img {
+        left: 75%;
+    }
+    .potential {height: 600px;}
+    .potential .po-box > img {
+        top: 55%;
+        opacity: 1;
+        left: 75%;
+    }
+    .potential .po-box > span {
+        top: 51%;
+        opacity: 1;
+        font-size: 14px;
+        line-height: 22px;
+        left: 75%;
+        width: 22%;
+    }
+    .potential .po-img {
+        left: 25%;
+    }
+    .open {
+        height: 300px;
+    }
+    .open h1 {
+        padding-top: 30px;
+    }
+    .open h1 > img {
+        width: 60px;
+    }
+    .open .wannado-font {
+        font-size: 60px;
+    }
+    .open .open-txt {
+        font-size: 15px;
+    }
+    footer .inner {
+        max-width : 950px
+    }
+    
+}
+@media all and (max-width:1000px){
+    .header-wrap {display: block}
+    .header-wrap h1 {
+        text-align: center;
+    }
+    .header-wrap .logo a img {
+        width: 170px;
+    }
+    .header-wrap ul {display: none;}
+    .mainbanner {
+        height: 700px;
+    }
+    .mainbanner .main-wrap {
+        max-width: 850px;
+    }
+    .mainbanner .m-wannado {
+        font-size: 60px;
+    }
+    .orange .inner {
+        max-width: 800px;
+    }
+    .orange .orange-title .or-title {
+        font-size: 35px;
+    }
+    .orange .train {
+        margin-bottom: 100px;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+    .orange .img-3 .img-3-flip > img {
+        width: 230px;
+
+    }
+    .orange .orange-last-txt {
+        margin: 80px 0;
+    }
+    .blue .inner {
+        max-width: 750px;
+    }
+    .blue .rotate-dna {
+        width: 120px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 35px;
+    }
+    .blue .step-1 .step-1-content p:first-child {
+        font-size: 65px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2){
+        font-size: 25px;
+    }
+    .blue .step-2 {
+        margin-bottom: 30px;
+    }
+    .blue .step-2 .step-2-content p:first-child {
+        font-size: 65px;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2){
+        font-size: 25px;
+    }
+    .blue .step-2 .rotate-dna {
+        width: 120px;
+    }
+    #step2 .step2-back {
+        width: 85px;
+    }
+    .creative {height: 500px;}
+    .creative h1 {font-size: 70px;}
+    .potential {height: 500px;}
+    .potential h1 {font-size: 70px;}
+    
+    footer {height: 80px;}
+    footer .inner {
+        max-width: 800px;
+    }
+    .open {
+        height: 230px;
+    }
+    .open h1 {
+        padding-top: 15px;
+    }
+    .open h1 > img {
+        width: 40px;
+    }
+    .open .wannado-font {
+        font-size: 50px;
+    }
+    .open .wannado-font {
+        margin-bottom: 0;
+        margin: 10px 0;
+    }
+    .open .open-txt {
+        font-size: 14px;
+    }
+    footer .f-left .logo a img {
+        width: 130px;        
+    }
+    footer p {font-size: 11px;}
+    
+}
+@media all and (max-width:950px){
+    .header-wrap {max-width:300px;}
+}
+@media all and (max-width:900px){
+    .mainbanner .smile-face {
+        width: 80px;
+        height: 80px;
+    }
+    .mainbanner .main-wrap {
+        max-width: 750px;
+    }
+    .mainbanner .m-wannado {
+        margin: 0;
+    }
+    .orange {
+        background-size: 100% 100px;
+    }
+    .orange .inner {
+        max-width: 700px;
+    }
+    .orange .orange-title {
+        padding-top: 15px;
+        height: auto;
+    }
+    .orange .orange-title .or-title {
+        font-size: 30px;
+    }
+    .orange .train p {
+        font-size: 15px;
+    }
+    .orange .orange-last-txt {
+        font-size: 15px;
+    }
+    .orange .img-3 {
+        height: 200px;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+    .orange .img-3 .img-3-flip > img {
+        width: 200px;
+    }
+    .blue {
+        background-size: 100% 100px;
+    }
+    .blue .inner {
+        max-width: 670px;
+    }
+    .blue .blue-title {
+        padding-top: 15px;        
+    }
+    .blue .blue-title p {
+        font-size: 15px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 30px;
+    }
+    .blue .step-1 {
+    }
+    .blue .step-1 .step-1-content p:first-child {
+        font-size: 60px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2) {
+        font-size: 22px;
+        margin: 40px 0;
+    }
+    .blue .step-1 .step-1-content p:last-child {
+        font-size: 15px;
+    }
+    .blue .step-2 {
+        margin-top: 80px;
+    }
+    .blue .step-2 .step-2-content {
+        margin: 0;
+    }
+    .blue .step-2 .step-2-content p:first-child {
+        font-size: 60px;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2) {
+        font-size: 22px;
+        margin: 40px 0;
+    }
+    .blue .step-2 .step-2-content p:last-child {
+        font-size: 15px;
+    }
+    #step2 .step2-back {
+
+        width: 60px;
+    }
+    .creative {
+        height: 430px;
+    }
+    .creative h1 {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+    .creative .cre-box > span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .potential h1 {
+        font-size: 60px;
+    }
+    .potential {
+        height: 430px;
+    }
+    .potential h1 {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+    footer p, footer span {
+        font-size: 11px;
+    }
+
+}
+@media all and (max-width: 870px){
+    header {
+        height: 60px;
+    }
+    .header-wrap .logo a {
+        height: 60px;
+    }
+    .header-wrap .logo a img {
+        width: 150px;
+    }
+    .mainbanner {
+        height: 600px;
+    }
+    .mainbanner .smile-face {
+        display: none;
+    }
+    .mainbanner .main-wrap {
+        max-width: 680px;
+    }
+    .mainbanner .m-wannado {
+        font-size: 50px;
+    }
+}
+@media all and (max-width:800px){
+    .blue .step-2 .rotate-dna {
+        margin-left: 85%;
+    }
+    footer .inner {
+        max-width: 650px;
+    }
+}
+@media all and (max-width:750px){
+    .mainbanner {
+        height: 500px;
+    }
+    .mainbanner .main-wrap {
+        max-width: 600px;
+    }
+    .orange {
+        background-size: 100% 80px;
+    }
+    .orange .inner {
+        max-width: 600px;
+    }
+    .orange .orange-title {
+        padding-top: 10px;
+    }
+    .orange-title p {
+        font-size: 14px;
+    }
+    .orange .orange-title .or-title {
+        font-size: 26px;
+    }
+    .orange .train {
+        height: 320px;
+        margin-bottom: 70px;
+    }
+    .orange .train p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+    .orange .img-3 .img-3-flip > img {
+        width: 180px;
+    }
+    .orange .orange-last-txt {
+        margin: 50px 0;
+    }
+    .blue {
+        background-size: 100% 80px;
+    }
+    .blue .inner {
+        max-width: 600px;
+    }
+    .blue .blue-title {
+        padding-top: 10px;
+    }
+    .blue .blue-title p {
+        font-size: 14px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 26px;
+    }
+    .creative {
+        height: 370px;
+    }
+    .creative h1 {
+        font-size: 50px;
+    }
+    .creative .cre-box > img {
+        width: 63%;
+    }
+    .creative .cre-box > span {
+        width: 46%;
+    }
+    .potential {
+        height: 370px;
+    }
+    .potential h1 {
+        font-size: 50px;
+    }
+    .potential .po-box > img {
+        width: 32%;
+    }
+    .potential .po-box > span {
+        width: 25%;
+    }
+    footer {
+        height: 70px;
+    }
+    footer .f-left .logo a img {
+        width: 100px;
+    }
+    footer p {
+        margin-left: 15px;
+    }
+}
+@media all and (max-width:650px){
+    .mainbanner .main-wrap {
+        max-width: 550px;
+    }
+    .mainbanner .m-wannado {
+        font-size: 40px;
+    }
+    .bn-img {
+        width: 46%;
+    }
+    .orange {
+        background-size: 100% 90px;
+    }
+    .orange .inner {
+        max-width: 500px;
+    }
+    .orange .train {
+        height: 500px;
+    }
+    .orange .train img {
+        right: 50%;
+        transform: translateX(50%);
+        width: 53%;
+        top: 50px;
+    }
+    .orange .train .maintrain {
+        top: 320px;
+        left: 30%;
+    }
+    .orange .train .maintrain.on {
+        left: -27%;
+    }
+    .orange .train p {
+        text-align: center;
+    }
+    .orange .img-3 {
+        height: 170px;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+    .orange .img-3 .img-3-flip > img {
+        width: 150px;
+    }
+    .orange .orange-last-txt {
+        margin: 35px 0;
+        font-size: 14px;
+    }
+    .blue {
+        background-size: 100% 90px;
+    }
+    .blue .inner {
+        max-width: 450px;
+    }
+    .blue .rotate-dna {
+        margin-left: 70%;
+        width: 150px;
+    }
+    .blue .step-1 {
+        margin: 0;
+        padding-top: 50px;
+    }
+    .blue .step-1 .step-1-content {
+        display: block;
+        margin-top: 0px;
+    }
+    .blue .step-1 .step-1-content p:first-child {
+        font-size: 80px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2) {
+        font-size: 25px;
+    }
+    .blue .step-1 .step-1-content p:last-child {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .blue .step-1 .step-1-content img {
+        width: 100%;
+    }
+    .blue .step-2 {
+        margin-top: 50px;
+    }
+    .blue .step-2 .step-2-content {
+        flex-direction: column-reverse;
+    }
+    .blue .step-2 .step-2-content img {
+        width: 100%;
+    }
+    .blue .step-2 .step-2-content p:first-child {
+        font-size: 80px;
+        text-align: right;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2) {
+        font-size: 25px;
+        text-align: right;
+    }
+    .blue .step-2 .step-2-content p:last-child {
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: right;
+    }
+    .blue .step-2 .rotate-dna {
+        width: 150px;
+        margin-left: 75%;
+    }
+    #step2 .step2-back {
+        display: none;
+    }
+    .creative {
+        height: 700px;
+    } 
+    .creative .cre-box {
+        width: 100%;
+        height: 40%;
+    }
+    .creative .cre-box > img {
+        width: 50%;
+        top: 90%;
+    }
+    .creative .cre-box > span {
+        width: 40%;
+        font-size: 17px;
+        top: 80%;
+        line-height: 28px;
+    }
+    .creative .cre-img {
+        width: 50%;
+        left: 50%;
+        top: 70%;
+        z-index: -1;
+    }
+    .potential {
+        height: 700px;
+    } 
+    .potential .po-img {
+        width: 50%;
+        left: 50%;
+        top: 70%;
+    }
+    .potential .po-box {
+        width: 100%;
+        height: 40%;
+        margin: 0;
+    }
+    .potential .po-box > img {
+        width: 50%;
+        top: 35%;
+        left: 50%;
+    }
+    .potential .po-box > span {
+        width: 40%;
+        font-size: 17px;
+        top: 32%;
+        line-height: 28px;
+        left: 50%;
+    }
+    footer {
+        height: 120px;
+    }
+    footer .inner {
+        max-width: 500px;
+    }
+    footer .f-left {
+        align-items: self-start;
+        flex-direction: column;
+        gap: 5px;
+    }
+    footer p {
+        margin-left: 0;
+    }
+    footer span {
+        margin-top: 70px;
+    }
+    
+}
+@media all and (max-width:550px){
+    .mainbanner {
+        height: 600px;
+    }
+    .mainbanner .main-wrap {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .orange {
+        background-size: 100% 70px;
+    }
+    .orange .inner {
+        max-width: 420px;
+    }
+    .orange .orange-title {
+        padding-top: 15px;
+    }
+    .orange-title p:first-child {
+        display: none;
+    }
+    .orange .orange-title .or-title {
+        font-size: 22px;
+        white-space: nowrap;
+    }
+    .orange .train {
+        margin-bottom: 50px;
+        height: 400px;
+    }
+    .orange .train .maintrain {
+        display: none;
+    }
+    .orange .train img {
+        width: 60%;
+    }
+    .orange .train p .none {
+        display: none;
+    }
+    .orange .img-3 {
+        display: block;
+        height: 650px;
+    }
+    .orange .img-3 .img-1-flip,
+    .orange .img-3 .img-2-flip,
+    .orange .img-3 .img-3-flip
+     {
+        padding-left: calc(50% - 200px / 2);
+        height: 33.333%;
+    }
+    .orange .img-3 .img-1-flip > img,
+    .orange .img-3 .img-2-flip > img,
+     .orange .img-3 .img-3-flip > img {
+        margin: 0 auto;
+        width: 200px;
+    }
+    .orange .orange-last-txt {
+        margin: 50px 0;
+    }
+    .orange .orange-last-txt .none {
+        display: none;
+    }
+    .blue {
+        background-size: 100% 70px;
+    }
+    .blue-title p:first-child {
+        display: none;
+    }
+    .blue .blue-title {
+        padding-top: 15px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 24px;
+    }
+    .blue .inner {
+        max-width: 380px;
+    }
+    .blue .step-1 {
+        padding-top: 30px;
+    }
+    .blue .rotate-dna {
+        width: 100px;
+        padding-top: 5%;
+    }
+    .blue .step-1 .step-1-content p:first-child {
+        font-size: 65px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2) {
+        margin: 25px 0;
+    }
+    .blue .step-1 .step-1-content p:last-child {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .blue .step-2 .step-2-content p:first-child {
+        font-size: 65px;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2) {
+        margin: 25px 0;
+    }
+    .blue .step-2 .step-2-content p:last-child {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .blue .step-2 .rotate-dna {
+        margin-left: 70%;
+        width: 100px;
+    }
+    .creative .cre-box {
+        height: 35%;
+    }
+    .creative .cre-box > img {
+        top: 100%;
+    }
+    .creative .cre-box > span {
+        width: 37%;
+        font-size: 16px;
+        top: 90%;
+        line-height: 22px;
+    }
+    .creative .cre-img {
+        width: 58%;
+        left: 50%;
+        top: 65%;
+        z-index: -1;
+    }
+    .potential .po-box {
+        height: 35%;
+    }
+    .potential .po-img {
+        width: 60%;
+        left: 50%;
+        top: 65%;
+    }
+    .open {
+        height: 200px;
+    }
+    .open .wannado-font {margin: 0;}
+
+}
+@media all and (max-width:500px){
+    footer {
+        height: 150px;
+    }
+    footer .inner {
+        flex-direction: column;
+        max-width: 380px;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    footer span {
+        margin-top: 0;
+    }
+}
+@media all and (max-width:450px){
+    .mainbanner {
+        height: 500px;
+        padding: 60px 0 30px 0;
+    }
+    .orange {
+        background-size: 100% 60px;
+    }
+    .orange .inner {
+        max-width: 380px;
+    }
+    .orange .orange-title .or-title {
+        font-size: 18px;
+    }
+    .orange .train {
+        margin-bottom: 40px;
+    }
+    .orange .orange-last-txt {
+        margin: 40px 0;
+    }
+    .blue {
+        background-size: 100% 60px;
+    }
+    .blue .inner {
+        max-width: 330px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 20px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2) {
+        margin: 22px 0;
+        font-size: 22px;
+    }
+    .blue .step-2 {
+        margin-top: 30px;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2) {
+        margin: 22px 0;
+        font-size: 22px;
+    }
+    .creative .cre-box > img {
+        width: 65%;
+    }
+    .creative .cre-box > span {
+        width: 50%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .creative .cre-img {
+        width: 65%;
+        top: 70%;
+    }
+    .potential .po-box > img {
+        width: 65%;
+    }
+    .potential .po-box > span {
+        width: 50%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .potential .po-img {
+        width: 65%;
+        top: 70%;
+    }
+
+}
+@media all and (max-width:400px){
+    .mainbanner {
+        height: 450px;
+        padding: 60px 0 25px 0;
+    }
+    .orange {
+        background-size: 100% 50px;
+    }
+    .orange .inner {
+        max-width: 300px;
+    }
+    .orange .orange-title .or-title {
+        font-size: 16px;
+    }
+    .orange .train {
+        height: 350px;
+    }
+    .orange .train p {
+        font-size: 13px;
+    }
+    .orange .orange-last-txt {
+        margin: 30px 0;
+        line-height: 20px;
+    }
+    .blue .inner {
+        max-width: 300px;
+    }
+    .blue .step-1 {
+        padding-top: 0px;
+    }
+    .blue .rotate-dna {
+        padding-top: 15%;
+    }
+    .blue .step-1 .step-1-content {
+        margin-top: -50px;
+    }
+    .blue .step-1 .step-1-content img {
+        width: 85%;
+    }
+    .blue .step-1 .step-1-content p:first-child {
+        font-size: 55px;
+    }
+    .blue .step-1 .step-1-content p:nth-child(2) {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .blue .step-1 .step-1-content p:last-child {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .blue .step-2 .step-2-content img {
+        width: 85%;
+        margin-left: 15%;
+    }
+    .blue .step-2 .step-2-content p:first-child {
+        font-size: 55px;
+    }
+    .blue .step-2 .step-2-content p:nth-child(2) {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .blue .step-2 .step-2-content p:last-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blue .step-2 .rotate-dna {
+        padding-top: 8%;
+    }
+    .creative,
+    .potential {
+        height: 550px;
+    }
+    .creative h1,
+    .potential h1 {
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    .creative .cre-box > img {
+        margin-top: 20px;
+    }
+    .creative .cre-box > span {
+        top: 100%;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .creative .cre-img {
+        
+        top: 70%;
+    }
+    .potential .po-box > img {
+        top: 38%;
+    }
+    .potential .po-box > span {
+        top: 35%;
+        font-size: 14px;
+    }
+
+
+    .open {
+        height: 150px;
+    }
+    .open h1 {
+        padding-top: 5px;
+    }
+    .open .wannado-font {
+        font-size: 35px;
+    }
+    .open .open-txt {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    footer {
+        height: 130px;
+    }
+    footer .inner {
+        max-width: 300px;
+    }
+    footer .f-left {
+        gap: 0px;
+    }
+    footer span {
+        margin: 10px 0;
+    }
+
+
+}
+@media all and (max-width:350px){
+    .blue .inner {
+        max-width: 270px;
+    }
+    .blue .blue-title .bl-title {
+        font-size: 18px;
+    }
+    .blue .step-1 .step-1-content p:last-child {
+        font-size: 13px;
+    }
+    .blue .step-2 .step-2-content p:last-child {
+        font-size: 13px;
+    }
+}

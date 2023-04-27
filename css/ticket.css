@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Nanum-S;
+    src: url(../font/NanumSquareRoundR.ttf);
+}
+body {
+    font-family: Nanum-S;
+}
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+.wrap {
+    padding-top: 65px;
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap .table {
+    flex-basis: 45%;
+}
+.tb-1 {
+    margin-bottom: 10px;
+}
+.tb-1, .tb-2 {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+thead {
+    height: 100px;
+}
+thead tr {
+}
+thead tr th {
+    color: #fff;
+    font-weight: normal;
+    border-right: 1px solid #ddd;
+    background-color: #072f4f;
+}
+tbody tr {
+    height: 40px;
+    border: 0;
+}
+tbody tr td {
+    width: 25%;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.tb-1 thead tr th i {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+}
+/* ticket-txt */
+.ticket-txt {
+    flex-basis: 50%;
+    margin-top: 100px;
+    position: relative;
+}
+.ticket-txt h1 {
+    margin-bottom: 28px;
+    position: relative;
+    font-size: 28px;
+}
+.ticket-txt h1::after {
+    display: block;
+    content: '';
+    width: 600px;
+    height: 2px;
+    position: absolute;
+    bottom: -13px;
+    background-color: #ffc632;
+}
+.ticket-txt p {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.ticket-txt p::before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 3.5px;
+    background-color: #ffc632;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}

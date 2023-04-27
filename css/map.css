@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Nanum-S;
+    src: url(../font/NanumSquareRoundR.ttf);
+}
+body {
+    font-family: Nanum-S;
+}
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+main .wrap {
+    padding-top: 65px;
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .wrap img {
+    flex-basis: 35%;
+}
+.map-txt {
+    flex-basis: 60%;
+    margin-left: 50px;
+    margin-top: 150px;
+    position: relative;
+}
+.map-txt h1 {
+    margin-bottom: 28px;
+    position: relative;
+    font-size: 28px;
+}
+.map-txt h1::after {
+    display: block;
+    content: '';
+    width: 600px;
+    height: 2px;
+    position: absolute;
+    bottom: -13px;
+    background-color: #ffc632;
+}
+.map-txt p {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.map-txt p::before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 3.5px;
+    background-color: #ffc632;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.map-txt p:nth-child(4) {
+    margin-bottom: 5px;
+}
+.map-txt p:nth-child(5),
+.map-txt p:nth-child(6) {
+    padding-left: 90px;
+    margin-bottom: 5px;
+}
+.map-txt p:nth-child(5):before,
+.map-txt p:nth-child(6):before {
+    display: none;
+}
+
