@@ -103,10 +103,6 @@ p, span {
     top: 200px;
     transition: 2.5s;
 }
-/* .orange .train .maintrain.on {
-    left: 0%;
-} */
-
 .orange .train p {
     position: absolute;
     bottom: 0;
