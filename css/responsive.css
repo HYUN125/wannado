@@ -23,9 +23,6 @@
     .orange .inner {
         max-width: 1100px;
     }
-    .orange .train .maintrain {
-        left: 65%;
-    }
     .orange .img-3 .img-1-flip > img,
     .orange .img-3 .img-2-flip > img,
     .orange .img-3 .img-3-flip > img {
@@ -34,12 +31,6 @@
     }
     .blue .inner {
         max-width: 1100px;
-    }
-    .creative .cre-box > span .none {
-        display: none;
-    }
-    .potential .po-box > span .none {
-        display: none;
     }
     #step2 .step2-back {
         left: 86%;
@@ -96,14 +87,17 @@
     .creative .cre-box > img {
         width: 55%;
     }
-    .creative .cre-box > span {font-size: 16px;}
+    .creative .cre-box > span {
+        font-size: 16px;
+        top: 38%;
+    }
     .creative .cre-img {
         width: 28%;
     }
     .potential {height: 650px;}
     .potential h1 {font-size: 80px;}
     .potential .po-box > img {
-        width: 29%;
+        width: 55%;
     }
     .potential .po-box > span {font-size: 16px;}
     .potential .po-img {
@@ -167,39 +161,16 @@
         margin-top: 30px;
     }
     .creative {height: 600px;}
-    .creative .cre-box > img {
-        top: 55%;
-        opacity: 1;
-        left: 50%;
-    }
     .creative .cre-box > span {
-        top: 51%;
-        opacity: 1;
+        top: 40%;
         font-size: 14px;
-        line-height: 22px;
-        left: 49%;
-        width: 43%;
-
-    }
-    .creative .cre-img {
-        left: 75%;
+        line-height: 24px;
     }
     .potential {height: 600px;}
-    .potential .po-box > img {
-        top: 55%;
-        opacity: 1;
-        left: 75%;
-    }
     .potential .po-box > span {
-        top: 51%;
-        opacity: 1;
+        top: 40%;
         font-size: 14px;
-        line-height: 22px;
-        left: 75%;
-        width: 22%;
-    }
-    .potential .po-img {
-        left: 25%;
+        line-height: 24px;
     }
     .open {
         height: 300px;
@@ -289,9 +260,22 @@
     }
     .creative {height: 500px;}
     .creative h1 {font-size: 70px;}
+    .creative .cre-box > span {
+        width: 45%;
+        top: 38%;
+    }
+    .creative .cre-box > span .none {
+        display: none;
+    }
     .potential {height: 500px;}
     .potential h1 {font-size: 70px;}
-    
+    .potential .po-box > span {
+        width: 45%;
+        top: 38%;
+    }
+    .potential .po-box > span .none {
+        display: none;
+    }
     footer {height: 80px;}
     footer .inner {
         max-width: 800px;
@@ -416,9 +400,24 @@
         font-size: 60px;
         margin-top: 20px;
     }
-    .creative .cre-box > span {
-        font-size: 14px;
-        line-height: 20px;
+    .creative .cre-box > img {
+        width: 65%;
+        top: 40px;
+    }
+    .creative .cre-img {
+        width: 30%;
+        top: 20px;
+    }
+    .potential .po-box > img {
+        width: 65%;
+        top: 40px;
+    }
+    .potential .po-box > span {
+        top: 40%;
+    }
+    .potential .po-img {
+        width: 30%;
+        top: 20px;
     }
     .potential h1 {
         font-size: 60px;
@@ -523,25 +522,22 @@
         height: 370px;
     }
     .creative h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .creative .cre-box > img {
         width: 63%;
     }
     .creative .cre-box > span {
-        width: 46%;
+        width: 50%;
     }
     .potential {
         height: 370px;
     }
     .potential h1 {
-        font-size: 50px;
-    }
-    .potential .po-box > img {
-        width: 32%;
+        font-size: 60px;
     }
     .potential .po-box > span {
-        width: 25%;
+        top: 38%;
     }
     footer {
         height: 70px;
@@ -579,11 +575,7 @@
         top: 50px;
     }
     .orange .train .maintrain {
-        top: 320px;
-        left: 30%;
-    }
-    .orange .train .maintrain.on {
-        left: -27%;
+        top: 350px;
     }
     .orange .train p {
         text-align: center;
@@ -661,35 +653,40 @@
         display: none;
     }
     .creative {
-        height: 700px;
+        height: 750px;
     } 
     .creative .cre-box {
         width: 100%;
         height: 40%;
     }
     .creative .cre-box > img {
-        width: 50%;
-        top: 90%;
+        width: 350px;
+        top: 250px;
     }
     .creative .cre-box > span {
+        font-size: 16px;
         width: 40%;
-        font-size: 17px;
-        top: 80%;
+        top: 200px;
         line-height: 28px;
     }
     .creative .cre-img {
-        width: 50%;
-        left: 50%;
-        top: 70%;
+        width: 350px;
+        left: 0;
+        right: 0;
+        top: 300px;
         z-index: -1;
+        margin: auto;
     }
     .potential {
-        height: 700px;
+        height: 750px;
     } 
     .potential .po-img {
-        width: 50%;
-        left: 50%;
-        top: 70%;
+        width: 350px;
+        left: 0;
+        right: 0;
+        top: 300px;
+        z-index: -1;
+        margin: auto;
     }
     .potential .po-box {
         width: 100%;
@@ -697,16 +694,14 @@
         margin: 0;
     }
     .potential .po-box > img {
-        width: 50%;
-        top: 35%;
-        left: 50%;
+        width: 350px;
+        top: 250px;
     }
     .potential .po-box > span {
+        font-size: 16px;
         width: 40%;
-        font-size: 17px;
-        top: 32%;
+        top: 200px;
         line-height: 28px;
-        left: 50%;
     }
     footer {
         height: 120px;
@@ -834,30 +829,30 @@
         width: 100px;
     }
     .creative .cre-box {
-        height: 35%;
+        /* height: 35%; */
     }
     .creative .cre-box > img {
-        top: 100%;
+        /* top: 100%; */
     }
     .creative .cre-box > span {
-        width: 37%;
+        /* width: 37%;
         font-size: 16px;
         top: 90%;
-        line-height: 22px;
+        line-height: 22px; */
     }
     .creative .cre-img {
-        width: 58%;
+        /* width: 58%;
         left: 50%;
         top: 65%;
-        z-index: -1;
+        z-index: -1; */
     }
     .potential .po-box {
-        height: 35%;
+        /* height: 35%; */
     }
     .potential .po-img {
-        width: 60%;
+        /* width: 60%;
         left: 50%;
-        top: 65%;
+        top: 65%; */
     }
     .open {
         height: 200px;
@@ -866,6 +861,36 @@
 
 }
 @media all and (max-width:500px){
+    .creative {
+        height: 700px;
+    }
+    .creative .cre-box > img {
+        top: 220px;
+        width: 320px;
+    }
+    .creative .cre-box > span {
+        top: 180px;
+        width: 50%;
+    }
+    .creative .cre-img {
+        width: 320px;
+        top: 250px;
+    }
+    .potential {
+        height: 700px;
+    }
+    .potential .po-box > img {
+        top: 220px;
+        width: 320px;
+    }
+    .potential .po-box > span {
+        top: 180px;
+        width: 50%;
+    }
+    .potential .po-img {
+        width: 320px;
+        top: 250px;
+    }
     footer {
         height: 150px;
     }
@@ -919,31 +944,22 @@
         margin: 22px 0;
         font-size: 22px;
     }
-    .creative .cre-box > img {
-        width: 65%;
-    }
     .creative .cre-box > span {
         width: 50%;
         font-size: 15px;
         line-height: 24px;
     }
     .creative .cre-img {
-        width: 65%;
-        top: 70%;
-    }
-    .potential .po-box > img {
-        width: 65%;
+        width: 300px;
     }
     .potential .po-box > span {
-        width: 50%;
+        width: 48%;
         font-size: 15px;
         line-height: 24px;
     }
     .potential .po-img {
-        width: 65%;
-        top: 70%;
+        width: 300px;
     }
-
 }
 @media all and (max-width:400px){
     .mainbanner {
@@ -1016,7 +1032,7 @@
     }
     .creative,
     .potential {
-        height: 550px;
+        height: 600px;
     }
     .creative h1,
     .potential h1 {
@@ -1024,23 +1040,25 @@
         margin-top: 15px;
     }
     .creative .cre-box > img {
-        margin-top: 20px;
+        width: 280px;
+        top: 180px;
     }
     .creative .cre-box > span {
-        top: 100%;
-        line-height: 22px;
-        font-size: 14px;
+        top: 140px;
     }
     .creative .cre-img {
-        
-        top: 70%;
+        width: 280px;
     }
+    /*  */
     .potential .po-box > img {
-        top: 38%;
+        width: 280px;
+        top: 180px;
     }
     .potential .po-box > span {
-        top: 35%;
-        font-size: 14px;
+        top: 140px;
+    }
+    .potential .po-img {
+        width: 280px;
     }
 
 
@@ -1084,5 +1102,38 @@
     }
     .blue .step-2 .step-2-content p:last-child {
         font-size: 13px;
+    }
+    
+    .creative, .potential {
+        height: 550px;
+    }
+    .creative h1, .potential h1 {
+        font-size: 45px;
+    }
+    .creative .cre-box > img {
+        width: 260px;
+    }
+    .creative .cre-box > span {
+        width: 60%;
+        font-size: 14px;
+        line-height: 20px;
+        top: 140px;
+    }
+    .creative .cre-img {
+        width: 260px;
+        top: 200px;
+    }
+    .potential .po-box > img {
+        width: 260px;
+    }
+    .potential .po-box > span {
+        width: 60%;
+        font-size: 14px;
+        line-height: 20px;
+        top: 140px;
+    }
+    .potential .po-img {
+        width: 260px;
+        top: 200px;
     }
 }
